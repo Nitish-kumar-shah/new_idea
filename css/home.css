@@ -389,3 +389,33 @@ footer p {
     transform: scale(1);
   }
 }
+
+.farming-link {
+}
+.services-content {
+  flex-wrap: wrap;
+  display: flex;
+  /* background-color: blue; */
+  margin: 50px;
+  justify-content: space-between;
+}
+.farming {
+  height: 90px;
+  width: 90px;
+  background-color: red;
+  border-radius: 50%; /* Ensures a perfect circle */
+  overflow: hidden;
+  border: 2px solid teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.3);
+}
+
+.farming img {
+  width: 110%;
+  height: 110%;
+  object-fit: cover; /* Ensures image fills the box */
+  object-position: center; /* Centers the image */
+  display: block;
+}
