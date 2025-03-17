@@ -397,7 +397,18 @@ footer p {
   display: flex;
   /* background-color: blue; */
   margin: 50px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 5rem;
+}
+.farmer-box {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.farmer-title {
+  font-family: sans-serif;
 }
 .farming {
   height: 90px;
@@ -418,4 +429,14 @@ footer p {
   object-fit: cover; /* Ensures image fills the box */
   object-position: center; /* Centers the image */
   display: block;
+}
+@media (max-width: 500px) {
+  .services-content {
+    margin: 30px;
+    gap: 1rem;
+  }
+  .farming {
+    height: 70px;
+    width: 70px;
+  }
 }
