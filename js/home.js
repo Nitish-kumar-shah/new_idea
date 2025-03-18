@@ -67,3 +67,12 @@ scrollLinks.forEach((link) => {
     linkContainer.style.height = 0;
   });
 });
+
+const services = document.getElementById("services");
+const servicesHeight = services.getBoundingClientRect().height;
+console.log(servicesHeight);
+const servicesContent = document.querySelector(".services-content");
+const servicesContentHeight = servicesContent.getBoundingClientRect().height;
+console.log(servicesContentHeight);
+const DyServiceHeight = servicesHeight - servicesContentHeight;
+services.style.height = `${servicesContentHeight + 100}px`;
