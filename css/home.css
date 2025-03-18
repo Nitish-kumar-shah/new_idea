@@ -410,6 +410,9 @@ footer p {
 }
 .farmer-box:hover {
   scale: 1.1;
+  img {
+    scale: 1.2;
+  }
 }
 .farmer-title {
   font-family: sans-serif;
@@ -418,7 +421,7 @@ footer p {
   height: 90px;
   width: 90px;
   background-color: red;
-  border-radius: 50%; /* Ensures a perfect circle */
+  border-radius: 50%;
   overflow: hidden;
   border: 2px solid teal;
   display: flex;
@@ -430,14 +433,12 @@ footer p {
 .farming img {
   width: 110%;
   height: 110%;
-  object-fit: cover; /* Ensures image fills the box */
-  object-position: center; /* Centers the image */
+  object-fit: cover;
+  object-position: center;
   display: block;
   transition: all 0.2s ease-in;
 }
-.farming img:hover {
-  scale: 1.2;
-}
+
 .farmer-title {
   font-family: sans-serif;
   font-weight: 600;
