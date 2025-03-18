@@ -432,7 +432,8 @@ footer p {
 }
 @media (max-width: 500px) {
   .services-content {
-    margin: 30px;
+    margin: 30px 0;
+    justify-content: space-around;
     gap: 1rem;
   }
   .farming {
