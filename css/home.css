@@ -406,6 +406,10 @@ footer p {
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
+  transition: all 0.2s ease-in;
+}
+.farmer-box:hover {
+  scale: 1.1;
 }
 .farmer-title {
   font-family: sans-serif;
@@ -429,6 +433,10 @@ footer p {
   object-fit: cover; /* Ensures image fills the box */
   object-position: center; /* Centers the image */
   display: block;
+  transition: all 0.2s ease-in;
+}
+.farming img:hover {
+  scale: 1.2;
 }
 .farmer-title {
   font-family: sans-serif;
